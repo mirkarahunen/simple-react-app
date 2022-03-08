@@ -2,8 +2,8 @@ const mysql = require('mysql')
 
 // Set mysql connection
 const connection = mysql.createConnection({
-    user: 'root',
-    password: 'root',
+    user: '',
+    password: '',
     port: 8889,
     host: 'localhost',
     database: 'simple_react_app'
